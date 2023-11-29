@@ -1,7 +1,7 @@
 {
-  "name": "socketio-whiteboard",
+  "name": "CollaboCanvas",
   "version": "1.1.1",
-  "description": "HTML5 canvas real-time drawing using socket.io",
+  "description": "Canvas real-time drawing using socket.io",
   "main": "demo/server.js",
   "scripts": {
     "start": "node demo/server.js",
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/over-engineer/Socket.io-whiteboard.git"
+    "url": "git+https://github.com/SaladDay/CollaboCanvas"
   },
-  "author": "over-engineer",
+  "author": "saladday",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/over-engineer/Socket.io-whiteboard/issues"
+    "url": "https://github.com/SaladDay/CollaboCanvas/issue"
   },
-  "homepage": "https://github.com/over-engineer/Socket.io-whiteboard#readme",
+  "homepage": "https://github.com/SaladDay/CollaboCanvas#readme",
   "devDependencies": {
     "eslint": "^7.6.0",
     "eslint-config-airbnb-base": "^14.2.0",

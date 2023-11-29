@@ -1,7 +1,7 @@
 {
-    "name": "socketio-whiteboard",
-    "description": "HTML5 canvas real-time drawing using socket.io",
-    "repository": "https://github.com/over-engineer/Socket.io-whiteboard",
+    "name": "CollaboCanvas",
+    "description": "canvas real-time drawing using socket.io",
+    "repository": "https://github.com/SaladDay/CollaboCanvas.git",
     "keywords": [
         "whiteboard",
         "drawing",
