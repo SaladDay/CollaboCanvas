@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Pacifico';
+    src: url('./fonts/Pacifico-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+body {
+    background-color: #e9e9e9;
+    font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+    /* font-family: 'Pacifico', cursive; */
+    color: #828282;
+}
+#head {
+    font-family: 'Pacifico', cursive;
+}
+h1 {
+    font-weight: 500;
+    margin: 0 0 0.4em 0;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 10px;
+}
+
+#myCanvas {
+
+    width: 800px;
+    height: 600px;
+
+    border: 10px solid #8B4513;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    background-color: #f8f8f8; 
+    border-radius: 8px; 
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+
+    padding-bottom: 0.6em;
+}
+
+footer > a {
+    font-weight: 700;
+    color: #828282;
+
+    text-decoration: none;
+}
+#controls {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+

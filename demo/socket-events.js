@@ -1,0 +1,7 @@
+module.exports = {
+    DRAW: 'DRAW',
+    DRAW_RECTANGLE:"DRAW_RECTANGLE",
+    DRAW_CIRCU:"DRAW_CIRCU",
+    DRAW_BEGIN_PATH: 'DRAW_BEGIN_PATH',
+    CLEAR:'CLEAR',
+};

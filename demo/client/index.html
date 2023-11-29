@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>🎨 Whiteboard</title>
+  
+    
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+    <div id="container">
+      <h1 id="head">🎨 Whiteboard</h1>
+      <!-- control button -->
+      <div id="controls">
+        <button id="btnPencil">🖌 Pencil</button>
+        <button id="btnRectangle">◼️ Rectangle</button>
+        <button id="btnCircle">⚪ Circle</button>
+        <button id="btnClear">🧹 Clear</button>
+        
+        <!-- 颜色选择 -->
+        <input type="color" id="colorPicker" title="Choose color" value="#a93232">
+              
+        <!-- 线条粗细选择 -->
+        <div id="thicknessControl">
+          <button id="btnThickness">🛠 Thickness</button>
+          <div id="thicknessOptions" style="display:none;">
+            <button id="increaseThickness" >Increase</button>
+            <button id="decreaseThickness" >Decrease</button>
+            <span id="currentThickness">Thickness: 4px</span> 
+          </div>
+        </div>
+        
+        
+      </div>
+
+
+      <canvas id="myCanvas"></canvas>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js"
+            integrity="sha256-yr4fRk/GU1ehYJPAs8P4JlTgu0Hdsp4ZKrx8bDEDC3I="
+            crossorigin="anonymous"></script>
+
+    <script src="js/whiteboard.js"></script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
